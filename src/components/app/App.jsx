@@ -1,12 +1,7 @@
 import "./App.css";
-import Navbar from "../nabvar/Navbar.jsx";
 
 function App() {
-  return (
-    <div className="navbar-container">
-      <Navbar />
-    </div>
-  );
+  return <div className="container"></div>;
 }
 
 export default App;
