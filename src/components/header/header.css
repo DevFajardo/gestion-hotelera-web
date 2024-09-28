@@ -1,7 +1,7 @@
 .hero-contenedor {
   font-family: "Poppins", sans-serif;
   width: 100%; /* Ajusta el tamaño del div */
-  height: 658px; /* Ajusta el tamaño del div */
+  height: 700px; /* Ajusta el tamaño del div */
   background-image: url("/public/header.png");
   background-size: cover; /* Para que la imagen cubra todo el div */
   background-position: center; /* Para centrar la imagen */
@@ -12,8 +12,8 @@
 
 .text-titulo {
   position: absolute;
-  font-size: 5rem;
-  color: blanchedalmond;
+  font-size: 4rem;
+  color: white;
   bottom: 0px;
   margin: 80px 0px 80px 60px;
   width: 100%;
