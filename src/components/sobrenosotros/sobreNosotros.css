@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+#sobre-nosotros {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.titulo-sobre-nosotros {
+  width: 40%;
+  padding-left: 200px;
+  padding-bottom: 40px;
+  margin: 0px 50px;
+  font-weight: lighter;
+  text-align: left;
+}
+
+.parrafo-sobre-nosotros {
+  width: 97%;
+  font-size: 32px;
+  margin: 10px;
+  padding: 20px 80px;
+  text-align: left;
+}

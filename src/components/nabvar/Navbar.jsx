@@ -12,7 +12,7 @@ function Nabvar() {
           <a href="#sobre-nosotros">Sobre nosotros</a>
         </li>
         <li className="navbar-item">
-          <img src="/logo-hotel-girasol.png" alt="Hotel El Girasol" />
+          <img src="/public/logo-hotel-girasol.png" alt="Hotel El Girasol" />
         </li>
         <li className="navbar-item">
           <a href="#Habitaciones">Habitaciones</a>
