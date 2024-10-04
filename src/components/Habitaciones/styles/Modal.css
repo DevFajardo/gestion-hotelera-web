@@ -1,0 +1,117 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro */
+    z-index: 1000;
+}
+
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 60%; /* Ajusta el ancho del modal */
+    max-width: 900px; /* Limita el ancho máximo */
+    height: auto; /* Ajuste dinámico según contenido */
+    z-index: 1001;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-family: inter;
+}
+
+.modal-container {
+    display: flex;
+    flex-direction: row; /* Imagen y contenido a la par */
+    gap: 20px; /* Espacio entre imagen y texto */
+    width: 100%;
+}
+
+.modal-image {
+    flex: 1; /* Ocupa la mitad del espacio horizontal */
+}
+
+.modal-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Para que la imagen se ajuste bien */
+    border-radius: 10px 0 0 10px;
+}
+
+.modal-main {
+    flex: 1; /* El contenido textual ocupará más espacio */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.modal-body {
+    flex: 1;
+}
+
+.modal-body h3 {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.modal-body h1 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.price-container {
+    display: flex;
+    align-items: baseline;
+    font-size: 0.9em;
+    margin-bottom: 20px;
+}
+
+.price-container, .price-text {
+    font-size: 0.9em;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+#texto-description{
+    width: 100%;
+    font-size: 1em;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.reservar-btn, .cerrar-btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.reservar-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+.cerrar-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+.cerrar-btn:hover {
+    background-color: #c82333;
+    cursor: pointer;
+}
+
+.reservar-btn:hover {
+    background-color: #0056b3;
+    cursor: pointer;
+}
