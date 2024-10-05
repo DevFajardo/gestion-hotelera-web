@@ -5,7 +5,7 @@ function Footer() {
   const navbarLinks = [
     { href: "#inicio", label: "Inicio" },
     { href: "#sobre-nosotros", label: "Sobre nosotros" },
-    { href: "#", label: "Terminos y condiciones" },
+    { href: "#", label: "Terminos" },
     { href: "#", label: "Politica" },
   ];
 
