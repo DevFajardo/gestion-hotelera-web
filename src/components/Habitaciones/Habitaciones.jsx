@@ -6,7 +6,9 @@ const Habitaciones = () => {
   const { Habitaciones, HandleOpenModal } = useContext(HabitacionesContext);
   return (
     <>
-      <h2 className="titulo">Habitaciones</h2>
+      <h2 className="titulo" id="habitaciones">
+        Habitaciones
+      </h2>
       <div className="habitaciones">
         {Habitaciones.map((habitacion, index) => (
           <Card
