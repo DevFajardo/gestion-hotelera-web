@@ -16,8 +16,8 @@
 .titulo-sobre-nosotros {
   width: 40%;
   padding-left: 200px;
-  padding-bottom: 40px;
-  margin: 0px 50px;
+  margin: 50px;
+  margin-top: 100px;
   font-weight: lighter;
   text-align: left;
 }
