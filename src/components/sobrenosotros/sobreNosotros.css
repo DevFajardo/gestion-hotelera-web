@@ -29,3 +29,19 @@
   padding: 20px 80px;
   text-align: left;
 }
+
+.seccion-contacto {
+  width: 100%;
+  position: relative;
+}
+
+.enlace-contacto {
+  position: absolute;
+  right: 50px;
+  margin: 12px;
+}
+
+.icono-whatsapp {
+  width: 110px;
+  height: auto;
+}
