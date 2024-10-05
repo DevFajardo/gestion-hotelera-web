@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
 }
-.seccion {
+#servicios {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -9,7 +9,7 @@
   text-align: center;
 }
 
-#Servicios {
+.titulo-servicio {
   width: 40%;
   padding-left: 200px;
   margin-top: 80px;

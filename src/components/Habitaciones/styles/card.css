@@ -1,84 +1,84 @@
 /* Contenedor principal para las tarjetas */
 .habitaciones {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 20px; /* Espacio entre las tarjetas */
-    max-height: 500px; /* Ajusta esta altura según sea necesario */
-    overflow-y: auto; /* Permitir scroll vertical */
-    padding: 20px;
-    font-family: "inter";
-    margin-bottom: 60px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px; /* Espacio entre las tarjetas */
+  max-height: 500px; /* Ajusta esta altura según sea necesario */
+  overflow-y: auto; /* Permitir scroll vertical */
+  padding: 20px;
+  font-family: "inter";
+  margin-bottom: 60px;
 }
 
-.titulo{
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-bottom: 20px;
+.titulo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
 /* Estilo de las tarjetas */
 .card {
-    border-radius: 20px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    background-color: white;
-    max-width: 300px;
-    transition: transform 0.3s ease-in-out;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background-color: white;
+  max-width: 300px;
+  transition: transform 0.3s ease-in-out;
 }
 
 .card:hover {
-    transform: scale(1.05);
-    cursor: pointer;
+  transform: scale(1.05);
+  cursor: pointer;
 }
 
 .card img {
-    width: 100%;
-    height: 150px;
-    object-fit: cover;
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
 }
 
 .card-body {
-    padding: 10px;
-    height: 150px;
-    text-align: center;
-    overflow: hidden; /* Oculta el contenido que desborde */
+  padding: 10px;
+  height: 150px;
+  text-align: center;
+  overflow: hidden; /* Oculta el contenido que desborde */
 }
 
 .card-body h4 {
-    font-size: 0.9rem; /* Ajusta el tamaño según sea necesario */
-    font-weight: bold;
-    margin-bottom: 0.2rem;
+  font-size: 0.9rem; /* Ajusta el tamaño según sea necesario */
+  font-weight: bold;
+  margin-bottom: 0.2rem;
 }
 
 .card-body h3 {
-    font-size: 1.2rem; /* Ajusta el tamaño según sea necesario */
-    color: #555;
-    margin-bottom: 0.2rem;
+  font-size: 1.2rem; /* Ajusta el tamaño según sea necesario */
+  color: #555;
+  margin-bottom: 0.2rem;
 }
 
 .card-body .p-desc {
-    font-size: 0.8rem; /* Ajusta el tamaño según sea necesario */
-    color: #777;
-    width: 100%;
-    margin-bottom: 0.2rem;
-    margin-top: 0.1rem;
-    margin-bottom: 0;
+  font-size: 0.8rem; /* Ajusta el tamaño según sea necesario */
+  color: #777;
+  width: 100%;
+  margin-bottom: 0.2rem;
+  margin-top: 0.1rem;
+  margin-bottom: 0;
 }
 
 .card-body .p-precio {
-    font-size: 1rem; /* Ajusta el tamaño según sea necesario */
-    color: #333;
-    font-weight: bold;
-    margin-top: 0.1rem;
-    margin-bottom: 0.2rem;
+  font-size: 1rem; /* Ajusta el tamaño según sea necesario */
+  color: #333;
+  font-weight: bold;
+  margin-top: 0.1rem;
+  margin-bottom: 0.2rem;
 }
 .precio-container {
-    margin-top: 0.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .card-body span {
-    font-size: 0.9rem; /* Ajusta el tamaño según sea necesario */
-    color: #333;
+  font-size: 0.9rem; /* Ajusta el tamaño según sea necesario */
+  color: #333;
 }

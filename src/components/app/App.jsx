@@ -3,6 +3,7 @@ import Servicios from "../servicios/Servicios.jsx";
 import Header from "../header/Header.jsx";
 import HabitacionesMain from "../Habitaciones/Main.jsx";
 import "./App.css";
+import Footer from "../footer/Footer.jsx";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Servicios />
       <HabitacionesMain />
       <SobreNosotros />
+      <Footer />
     </>
   );
 }
