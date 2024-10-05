@@ -21,6 +21,20 @@ function SobreNosotros() {
         y acogedor para que nuestros huéspedes se sientan como en casa.
         ¡Esperamos tener el placer de recibirlo pronto!
       </p>
+      <div className="seccion-contacto">
+        <a
+          href="https://wa.me/1234567890"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="enlace-contacto"
+        >
+          <img
+            src="/public/iconwhatsapp.png"
+            alt="WhatsApp"
+            className="icono-whatsapp"
+          />
+        </a>
+      </div>
     </section>
   );
 }
