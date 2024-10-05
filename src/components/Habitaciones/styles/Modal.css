@@ -93,6 +93,7 @@
 .reservar-btn, .cerrar-btn {
     padding: 10px 20px;
     border-radius: 5px;
+    width: 100px;
     border: none;
 }
 

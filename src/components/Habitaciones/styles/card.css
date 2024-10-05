@@ -11,8 +11,10 @@
 }
 
 .titulo {
-  font-size: 1.5rem;
-  font-weight: bold;
+  font-size: 3rem;
+  font-weight: 100;
+  margin-left: 200px;
+  font-family: sans-serif;
   margin-bottom: 20px;
 }
 

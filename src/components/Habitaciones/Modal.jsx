@@ -1,6 +1,7 @@
 import Modal from 'react-modal';
 import { useContext } from 'react';
 import { HabitacionesContext } from './HabitacionesContext';
+import { useNavigate } from 'react-router-dom';
 import './styles/Modal.css';
 
 Modal.setAppElement('#root');
@@ -8,7 +9,11 @@ Modal.setAppElement('#root');
 const ModalHabitacion = () => {
     const { isOpen, setIsOpen, habitacion } = useContext(HabitacionesContext);
     const { numero, nombre, precio, descripcion, imagen } = habitacion || {};
-
+    const navigate = useNavigate();
+    const handleNavigate = () => {
+        setIsOpen(false);
+        navigate('/reservar');
+    };
     return (
         <Modal
             isOpen={isOpen}
@@ -32,7 +37,7 @@ const ModalHabitacion = () => {
                     </div>
                     <div className="button-container">
                         <button className="cerrar-btn" onClick={() => setIsOpen(false)}>Cerrar</button>
-                        <button className="reservar-btn" onClick={() => console.log('reserva')}>Reservar</button>
+                        <button className="reservar-btn" onClick={() => handleNavigate()}>Reservar</button>
                     </div>
                 </div>
             </div>
