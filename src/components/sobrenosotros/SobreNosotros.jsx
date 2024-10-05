@@ -23,7 +23,7 @@ function SobreNosotros() {
       </p>
       <div className="seccion-contacto">
         <a
-          href="https://wa.me/1234567890"
+          href="https://wa.me/+573006353513"
           target="_blank"
           rel="noopener noreferrer"
           className="enlace-contacto"
